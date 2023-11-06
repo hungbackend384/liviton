@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="chitietphukienrem.css">
+</head>
+<body>
+    <header> 
+        <div class="top">
+            <div class="left-colum">
+                Công ty cổ phần LIVITON Việt Nam
+            </div>
+            <div class="right-colum">
+                Hotline: 092 9999 120 - 092 9999 130
+            </div>
+        </div>
+
+        <div class="logo">
+            <ul class="logo-item">
+                <img src="Images/logo liviton ko nen.svg">
+            </ul>
+        </div>
+
+    </header>
+    <ul id="nav-links">
+        <li><a href="">TRANG CHỦ</a>
+        <li><a href="">VỀ CHÚNG TÔI</a>
+        <li><a href="">SẢN PHẨM</a>
+        <ul class="nav">
+            <li><a href="phukienrem.html">PHỤ KIỆN RÈM</a></li>
+            <li><a href="dongcorem.html">ĐỘNG CƠ RÈM</a></li>
+        </ul></li>
+        <li><a href="">RÈM VÀ MÀNH</a>
+        <ul class="nav">
+            <li><a href="">RÈM VẢI</a></li>
+            <li><a href="">RÈM SÁO</a></li>
+            <li><a href="">RÈM TRIBLE</a></li>
+            <li><a href="">RÈM LÁ DỌC</a></li>
+            <li><a href="">RÈM CẦU VÒNG</a></li>
+            <li><a href="">RÈM CUỐN</a></li>
+            <li><a href="">RÈM TỔ ONG</a></li>
+            <li><a href="">RÈM ROMAN</a></li>
+        </ul></li>
+        <li><a href="">DỰ ÁN ĐÃ HOÀN THIỆN</a></li>
+        <li><a href="">TƯ VẤN TẠI NHÀ</a></li>
+        <li><a href="">ĐỘI NGŨ</a></li>
+        <li><a href="">BLOG</a></li>
+    </ul>
+    <div class="line">
+        <div class="image-container">
+            <div class="big-img"> <img name="img_roll" src="images/sp1.webp" alt="images" onmouseover="over();" onmouseout="out();"> </div>
+        </div>
+        <div class="text">
+            <h2>PVC Uncorded Curtain Track <br>, L150cm</h2>
+            <del>240.000</del>120.000
+            <div><button>ĐẶT HÀNG</button></div>
+
+        </div>
+    </div>
+    <div class="small-images">
+        <div class="small-img"><img src="images/sp2.webp" alt="images" onclick="showImg(this.src)"></div>
+        <div class="small-img"><img src="images/sp3.webp" alt="images" onclick="showImg(this.src)"></div>
+        <div class="small-img"><img src="images/sp4.webp" alt="images" onclick="showImg(this.src)"></div>
+      </div>
+    <footer>
+        <div class="footer">
+            <div class="footer-container">
+                <p>
+                    <img src="Images/logo liviton white.svg">
+                </p>
+                <p>Địa chỉ: Saigon Mystery Villas, LK7-32, Đường N 3, Phường Bình <br> Trưng Tây, Thủ Đức, Thành phố Hồ Chí Minh</p>
+                <p>Hotline: 092 9999 120 – 092 9999 130</p>
+                <p>Email: Info@Liviton.vn</p>
+                <div class="container">
+                    <div class="colum">
+                        <h3>Về chúng tôi</h3>
+                        <ul>
+                            <li><a href="">Quy trình nghiệm thu</a></li>
+                            <li><a href="">Chính sách bảo hành</a></li>
+                            <li><a href="">Tư vấn miễn phí tại nhà</a></li>
+                            <li><a href="">Dự án</a></li>    
+                        </ul>
+                    </div>
+                    <div class="colum">
+                        <h3>Sản phẩm</h3>
+                        <ul>
+                            <li><a href="">Rèm vãi</a></li>
+                            <li><a href="">Rèm cuốn</a></li>
+                            <li><a href="">Rèm Roman</a></li>
+                            <li><a href="">Rèm sáo</a></li>
+                            <li><a href="">Rèm đứng</a></li>
+                            <li><a href="">Rèm tổ ong</a></li>
+                            <li><a href="">Rèm Trible</a></li>
+                            <li><a href="">Rèm cầu vòng</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer> 
+    <script>
+        function over(){
+            document.img_roll.src = "images/sp2.webp"
+        }
+        function out(){
+            document.img_roll.src = "images/sp1.webp"
+        }
+        let bigImg = document.querySelector('.big-img img')
+        function showImg(pic){
+            bigImg.src = pic;
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+.border-row{
+    display: flex;
+}
+.banner-border{
+    width: 50%;
+    height: 380px;
+    overflow: hidden;
+}
+.banner-text{
+    justify-content: right;
+    text-align: center;
+    padding: 80px 60px;
+}
+.banner-text h1 {
+    font-size: 45px;
+    text-align: left;
+}
+.banner-text p{
+    font-size: 15px;
+    text-align: left;
+}
